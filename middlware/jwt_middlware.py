@@ -10,7 +10,7 @@ from fastapi import FastAPI, Request
 from starlette.responses import StreamingResponse
 import typing
 from shortuuid import uuid
-from websdk.jwt_token import AuthToken, jwt
+from jwt_token import AuthToken, jwt
 import anyio
 
 from starlette.middleware.base import (
